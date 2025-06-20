@@ -1,0 +1,103 @@
+.gradient-background{
+  background: linear-gradient(300deg,  #B4EBE6, white, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container{padding-bottom: 30px;}
+.logo-img{border-radius: 50%;
+          height: 300px;
+          width: 300px;
+          object-fit: cover;}
+.tagline{font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 2.5rem;
+         font-weight: 700;
+         text-align: left;
+         letter-spacing: 1px;}
+.motive{font-weight: 400;
+        text-align: left;
+        font-size: small;}
+.btn-primary{background-color:aquamarine;
+             border: none;
+             color: black;}
+#specialities {background-color: #FFFBDE;
+  padding: 40px 0;
+}
+.Questions {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.variety{background-color: beige;
+         text-align: center;
+         font-size: larger;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+.perfume-image{height: 300px;
+              width: 300px;
+              padding-bottom: 50px;}
+.caption{font-weight: 200;
+          color: grey;}
+.category{padding-top: 80px;
+          text-align: center;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #3D365C;
+          font-weight: bold;
+          font-size: xx-large;}
+.menwomen{background-color: blanchedalmond;
+          margin-top: none;
+          font-size: small;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          justify-content: center;}
+.list{color: #222831;
+      font-weight: 300;
+      text-align: center;
+      list-style: none;
+      font-size: 1rem;}
+
+.list1{color: #222831;
+      font-weight: 300;
+      text-align: center;
+      list-style: none;
+      font-size: 1rem;}
+
+.categoryx{padding-top: 80px;
+          text-align: center;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #3D365C;
+          font-weight: bold;
+          font-size: xx-large;}
+.womenmen{background-color: blanchedalmond;
+          margin-top: none;
+          font-size: small;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          justify-content: center;}
+.per{text-align: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 100;
+     font-size: 2rem;
+     font-weight: 300;}
+.pera{text-align: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 300;
+     font-weight: 100;
+     font-size: 2rem;}
+.optional{text-align: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 300;
+     font-weight: 100;}
+.text{color: brown;}
+
+    
